@@ -17,7 +17,7 @@ const data = [
 export default {
   name: 'app',
   components: {},
-  mounted() {
+  mounted () {
     let $dom = this.$refs['app']
     const chart = new Chart({
       container: $dom
@@ -27,7 +27,7 @@ export default {
       value: 'sales',
       text: 'date'
     })
-
+    window.chart = chart;
     const line = new Line()
     line.style('point', { strokeColor: '#fff' })
 

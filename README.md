@@ -2,6 +2,8 @@
 
 A demo for qcharts
 
+![line](line.png)
+
 ## Project setup
 
 ```
